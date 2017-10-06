@@ -32,5 +32,31 @@ header nav{
 }
 header nav span{
   padding-left: 25px;
-  color: seashell;
+}
+.content{
+  display: flex;
+  padding-top: 69px;
+  justify-content: center;
+}
+.mission-statement{
+  display: flex;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+.our-mission{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  width: 1200px;
+  height: 120px;
+}
+.our-mission h2{
+  margin-bottom: 10px;
+}
+.our-mission h4{
+  margin-top: 10px;
 }
