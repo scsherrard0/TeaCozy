@@ -37,6 +37,8 @@ header nav span{
   display: flex;
   padding-top: 69px;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .mission-statement{
   display: flex;
@@ -52,11 +54,36 @@ header nav span{
   flex-direction: column;
   background-color: black;
   width: 1200px;
-  height: 120px;
+  height: 100px;
 }
 .our-mission h2{
   margin-bottom: 10px;
 }
 .our-mission h4{
   margin-top: 10px;
+}
+.tea-month{
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+.tea-month h2{
+  margin-bottom: 10px;
+}
+.tea-month h4{
+  margin-top: 10px;
+}
+.images{
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.images .image{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
